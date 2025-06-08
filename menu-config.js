@@ -33,7 +33,7 @@ const menuConfigData = {
         {
           name_en: "Lentil Soup",
           name_ar: "شوربة عدس",
-          price: 2500,
+          price: 2800,
           description_ar: "شوربة العدس بالطريقة الأصلية، مع البهارات الشرقية.",
           description_en: "tentil soup. Tradition-al lentil soup seasoned with oriental spices."
         },
