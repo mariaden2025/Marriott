@@ -166,7 +166,7 @@ const menuConfigData = {
         { name_en: "Chicken Kofta", name_ar: "كفتة دجاج", price: 8000, description_ar: "الدجاج المفروم المتبل مع البقدونس والبصل والبهارات العربية يقدم مع البطاطس المقلية.", description_en: "Minced chicken marinated with parsley, onion, and Arabic spices. Served with French fries." },
         { name_en: "Meat Kofta", name_ar: "كفتة لحم", price: 13000,
           description_ar: "اللحم المفروم المتبل مع البقدونس والبصل والبهارات العربية يقدم مع البطاطس المقلية.", description_en: "Minced meat marinated with parsley, onion, and Arabic spices. Served with French fries." },
-        { name_en: "Broasted Chicken", name_ar: "دجاج بروست", price: 5000,
+        { name_en: "Broasted Chicken", name_ar: "دجاج بروست", price: 5400,
           description_ar: "دجاجة متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
         { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 8500, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." },
         { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 15000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.", description_en: "Grilled shrimp marinated with garlic, lemon sauce, olive oil, and fresh coriander. Served with French fries or rice." },
