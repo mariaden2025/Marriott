@@ -161,6 +161,13 @@ const menuConfigData = {
       name_ar: "الطبق الرئيسي (المشاوي)",
       mainImage: "images/grill_background.jpg",
       items: [
+        { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 15000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.", description_en: "Grilled shrimp marinated with garlic, lemon sauce, olive oil, and fresh coriander. Served with French fries or rice." },
+        { name_en: "Grilled Derk Fish", name_ar: "سمك مشوي ديرك", price: 13000, description_ar: "سمك ديرك مشوي.  ", description_en: "Grilled Derk fish. " },
+        { name_en: "Derk Fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "سمك ديرك مطبوخ بطريقة الطفاية.  ", description_en: "Derk fish cooked Tafaaya style. " },
+        { name_en: "Direk Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "سمك ديرك مقلي بروست.", description_en: "Broasted fried Derk fish." },
+        { name_en: "Thamd Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "سمك ثمد مقلي بروست.  ", description_en: "Broasted fried Thamd fish. " },
+        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك ثمد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
+        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك ثمد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " },
         { name_en: "Mixed Grill Platter", name_ar: "مشاوي مشكلة", price: 15000, description_ar: "طاووق، شيش كباب، كفتة، تشكيلة من اسياخ شيش المقليه يقدم مع البطاطس.", description_en: "Assorted skewers of shish taouk, shish kebab, and kofta. Served with French fries." },
         { name_en: "Shish Taouk", name_ar: "شيش طاووق", price: 7000, description_ar: "قطع دجاج متبلة بصلصة الثوم، الليمون والخل. يقدم مع البطاطس المقلية.", description_en: "Chicken cubes marinated in garlic, lemon, and vinegar sauce. Served with French fries." },
         { name_en: "Chicken Kofta", name_ar: "كفتة دجاج", price: 8000, description_ar: "الدجاج المفروم المتبل مع البقدونس والبصل والبهارات العربية يقدم مع البطاطس المقلية.", description_en: "Minced chicken marinated with parsley, onion, and Arabic spices. Served with French fries." },
@@ -172,15 +179,7 @@ const menuConfigData = {
           description_ar: "دجاج شرائح متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
        { name_en: "Chicken fingers", name_ar: "أصابع دجاج", price: 5400,
           description_ar: "دجاج صدور أصابع متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " Chicken breast fingers marinated and deep-fried with special spices. Served with French fries." },
-        { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 8500, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." },
-        { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 15000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.", description_en: "Grilled shrimp marinated with garlic, lemon sauce, olive oil, and fresh coriander. Served with French fries or rice." },
-        { name_en: "Grilled Derk Fish", name_ar: "سمك مشوي ديرك", price: 13000, description_ar: "سمك ديرك مشوي.  ", description_en: "Grilled Derk fish. " },
-        { name_en: "Derk Fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "سمك ديرك مطبوخ بطريقة الطفاية.  ", description_en: "Derk fish cooked Tafaaya style. " },
-        { name_en: "Direk Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "سمك ديرك مقلي بروست.", description_en: "Broasted fried Derk fish." },
-        { name_en: "Thamd Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "سمك ثمد مقلي بروست.  ", description_en: "Broasted fried Thamd fish. " },
-        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك ثمد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
-        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك ثمد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
-       
+        { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 8500, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." }
 	  ]
     },
     // 5. ركن الباستا (Pasta Corner)
@@ -250,7 +249,7 @@ const menuConfigData = {
       name_ar: "المطبخ اليمني (إفطار)",
       mainImage: "images/yemeni_cuisine_collage.jpg",
       items: [
-        { name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي ()", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
+        { name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
         { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 7000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
         { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 6000,
           description_ar: "متبلة بنكهة خاصة من التوابل العدنية مطهية مع الخضار تقدم مع الأرز.", description_en: "Chicken cubes marinated with special Adeni spices, cooked with vegetables. Served with rice." },
@@ -290,20 +289,21 @@ const menuConfigData = {
 	    { name_en: "Chicken with Rice", name_ar: "دجاج مع الرز", price: 8500, description_ar: "طبق دجاج مقدم مع الأرز.", description_en: "Chicken dish served with rice." },
         { name_en: "Kabsa (Cold)", name_ar: "كبسة بارد", price: 6000, description_ar: "كبسة باردة (اسأل عن التفاصيل).", description_en: "Cold Kabsa (ask for details)." },
         { name_en: "Kabsa (Hot)", name_ar: "كبسة حار", price: 6000, description_ar: "كبسة حارة (اسأل عن التفاصيل).", description_en: "Hot Kabsa (ask for details)." },
+        { name_en: "Rice with Vegetables", name_ar: "رز بالخضار", price: 3500, description_ar: "طبق أرز مطبوخ مع الخضار", description_en: "Vegetables dish served with rice." },
         {name_en: "Normal Tomato Sauce",name_ar: "سحاوق عادي",price: 1000,description_ar: "صلصة السحاوق اليمنية التقليدية الحارة.",description_en: "Traditional Yemeni hot sahawq sauce."},
         {name_en: "Tomato Sauce with Cheese",name_ar: "سحاوق جبن",price: 3000,description_ar: "صلصة السحاوق اليمنية مع إضافة الجبن.",description_en: "Traditional Yemeni sahawq sauce with added cheese."},
-		{ name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر كبير)", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
+		{ name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
         { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 7000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
         { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 6000,
           description_ar: "متبلة بنكهة خاصة من التوابل العدنية مطهية مع الخضار تقدم مع الأرز.", description_en: "Chicken cubes marinated with special Adeni spices, cooked with vegetables. Served with rice." },
 		{ name_en: "Chicken Curry", name_ar: "دجاج بالكاري", price: 5500, description_ar: "قطع دجاج متبله ومطهيه بالتوابل الهندية تقدم مع الأرز الأبيض.", description_en: "Chicken cubes marinated and cooked with special Indian spices. Served with white rice." },
         { name_en: "Raqat Meat (Thin Meat)", name_ar: "دقة لحم", price: 6500, description_ar: "شرائح لحم رقيقة مطهوة.", description_en: "Thin slices of lamb cooked Yemeni style." },
-		{ name_en: "Grilled Derk Fish", name_ar: "سمك مشوي ديرك", price: 13000, description_ar: "سمك ديرك مشوي.  ", description_en: "Grilled Derk fish. " },
-        { name_en: "Derk Fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "سمك ديرك مطبوخ بطريقة الطفاية.  ", description_en: "Derk fish cooked Tafaaya style. " },
-        { name_en: "Direk Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "سمك ديرك مقلي بروست.", description_en: "Broasted fried Derk fish." },
-        { name_en: "Thamd Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "سمك ثمد مقلي بروست.  ", description_en: "Broasted fried Thamd fish. " },
-        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك ثمد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
-        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك ثمد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
+		{ name_en: "Grilled King fish Fish", name_ar: "سمك مشوي ديرك", price: 13000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "King fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.  ", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice. " },
+        { name_en: "King fish Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه.", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes." },
+        { name_en: "Tuna Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
+        { name_en: "Grilled Tuna Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "Tuna Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." }
        
         // هذا القسم فارغ حاليًا. يمكنك إضافة أطباق يمنية عامة هنا لا تندرج تحت "إفطار وعشاء".
         // أو معلومات عامة عن المطبخ اليمني.
