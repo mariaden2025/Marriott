@@ -178,8 +178,8 @@ const menuConfigData = {
         { name_en: "Derk Fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "سمك ديرك مطبوخ بطريقة الطفاية.  ", description_en: "Derk fish cooked Tafaaya style. " },
         { name_en: "Direk Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "سمك ديرك مقلي بروست.", description_en: "Broasted fried Derk fish." },
         { name_en: "Thamd Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "سمك ثمد مقلي بروست.  ", description_en: "Broasted fried Thamd fish. " },
-        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك كنعد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
-        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك كنعد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
+        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك ثمد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
+        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك ثمد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
        
 	  ]
     },
@@ -302,8 +302,8 @@ const menuConfigData = {
         { name_en: "Derk Fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 13000, description_ar: "سمك ديرك مطبوخ بطريقة الطفاية.  ", description_en: "Derk fish cooked Tafaaya style. " },
         { name_en: "Direk Broasted Fish", name_ar: "سمك برست ديرك", price: 13000, description_ar: "سمك ديرك مقلي بروست.", description_en: "Broasted fried Derk fish." },
         { name_en: "Thamd Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "سمك ثمد مقلي بروست.  ", description_en: "Broasted fried Thamd fish. " },
-        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك كنعد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
-        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك كنعد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
+        { name_en: "Grilled Kan'ad Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك ثمد مشوي.  ", description_en: "Grilled Kan'ad fish. " },
+        { name_en: "Kan'ad Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "سمك ثمد مطبوخ بطريقة الطفاية.  ", description_en: "Kan'ad fish cooked Tafaaya style. " }
        
         // هذا القسم فارغ حاليًا. يمكنك إضافة أطباق يمنية عامة هنا لا تندرج تحت "إفطار وعشاء".
         // أو معلومات عامة عن المطبخ اليمني.
