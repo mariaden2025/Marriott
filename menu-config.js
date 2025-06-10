@@ -170,6 +170,8 @@ const menuConfigData = {
           description_ar: "دجاج متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
 	       { name_en: "Crispy chicken", name_ar: "كرسبي دجاج", price: 5400,
           description_ar: "دجاج شرائح متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
+       { name_en: "Chicken fingers", name_ar: "أصابع دجاج", price: 5400,
+          description_ar: "دجاج صدور أصابع متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " Chicken breast fingers marinated and deep-fried with special spices. Served with French fries." },
         { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 8500, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." },
         { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 15000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.", description_en: "Grilled shrimp marinated with garlic, lemon sauce, olive oil, and fresh coriander. Served with French fries or rice." },
         { name_en: "Grilled Derk Fish", name_ar: "سمك مشوي ديرك", price: 13000, description_ar: "سمك ديرك مشوي.  ", description_en: "Grilled Derk fish. " },
