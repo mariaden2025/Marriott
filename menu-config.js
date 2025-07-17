@@ -270,7 +270,7 @@ const menuConfigData = {
         { name_en: "Bean with Tuna", name_ar: "فول بالتونة", price: 5500, description_ar: "فول مطبوخ مع التونة.", description_en: "Cooked fava beans with tuna." },
         { name_en: "Bean with Cheese", name_ar: "فول بالجبن", price: 4000, description_ar: "فول مطبوخ مع الجبن.", description_en: "Cooked fava beans with cheese." },
         { name_en: "Bazlia (Peas) - Plain", name_ar: "بازليا سادة", price: 3500, description_ar: "بازلاء مطبوخة سادة.", description_en: "Plain cooked peas." },
-        { name_en: "Bazlia with Tuna", name_ar: "بازليا بالتونة", price: 5500, description_ar: "بازلاء مطبوخة مع التونة.", description_en: "Cooked peas with tuna." },
+        { name_en: "Bazlia with Tuna", name_ar: "بازليا بالتونة", price: 5000, description_ar: "بازلاء مطبوخة مع التونة.", description_en: "Cooked peas with tuna." },
         { name_en: "Bazlia with Eggs", name_ar: "بازليا بالبيض", price: 4000, description_ar: "بازلاء مطبوخة مع البيض.", description_en: "Cooked peas with eggs." },
         { name_en: "Bazlia with Cheese", name_ar: "بازليا بالجبن", price: 4000, description_ar: "بازلاء مطبوخة مع الجبن.", description_en: "Cooked peas with cheese." },
         { name_en: "Fried Eggs (Sunny Side Up)", name_ar: "بيض عيون", price: 4000, description_ar: "بيض مقلي عيون.", description_en: "Fried eggs, sunny side up." },
