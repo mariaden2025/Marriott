@@ -84,21 +84,21 @@ const menuConfigData = {
         {
           name_en: "Mixed Cheese Platter",
           name_ar: "طبق أجبان مشكلة",
-          price: 7000,
+          price: 5500,
           description_ar: "تشكيلة من الجبن الأبيض وجبنة شيدر والجبن المثلث مع الزيتون وشرائح الخيار والطماطم.",
           description_en: "Assorted platter of white cheese, cheddar cheese, and triangular cheese with olives, sliced tomatoes and cucumbers."
         },
         {
           name_en: "Tuna Fish Salad",
           name_ar: "سلطة سمك التونة",
-          price: 5500,
+          price: 4000,
           description_ar: "سلطة مع الطماطم والخيار والبصل وصوص الليمون.",
           description_en: "Lettuce, onion, tomato, and cucumber salad with oil lemon sauce."
         },
         {
           name_en: "Greek Salad",
           name_ar: "سلطة يونانية",
-          price: 3800,
+          price: 3200,
           description_ar: "جبنة فيتا، طماطم، خيار، بصل، زيتون أسود متبله مع صلصة زيت الزيتون والخل.",
           description_en: "Feta cheese, tomato, cucumber, onion, and black olives marinated with olive oil and vinegar dressing."
         },
@@ -140,7 +140,7 @@ const menuConfigData = {
         {
             name_en: "Yogurt with Cucumber Salad",
             name_ar: "سلطة زبادي بالخيار",
-            price: 3500,
+            price: 2500,
             description_ar: "زبادي طازج مع قطع الخيار المنعشة.",
             description_en: "Fresh yogurt mixed with refreshing cucumber pieces."
         },
@@ -161,29 +161,29 @@ const menuConfigData = {
       name_ar: "الطبق الرئيسي (المشاوي)",
       mainImage: "images/grill_background.jpg",
       items: [
-        { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 16000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.",
+        { name_en: "Grilled Shrimp", name_ar: "جمبري مشوي", price: 12000, description_ar: "جمبري متبل مع الثوم، صلصة الليمون، زيت الزيتون والكزبرة الطازجة يقدم مع البطاطس المقلية، أو الأرز.",
 	 description_en: "Grilled shrimp marinated with garlic, lemon sauce, olive oil, and fresh coriander. Served with French fries or rice." },
-        { name_en: "Grilled King fish Fish", name_ar: "سمك مشوي ديرك", price: 15000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "King fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 15000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.  ", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice. " },
-        { name_en: "King fish Broasted Fish", name_ar: "سمك برست ديرك", price: 15000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه.", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes." },
-        { name_en: "Tuna Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
-        { name_en: "Grilled Tuna Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "Tuna Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
-        { name_en: "Sakhlah Fish Tafaaya", name_ar: "سمك طفاية سخله", price: 13000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
-		{ name_en: "Grilled Sakhlah Fish", name_ar: "سمك مشوي سخله", price: 13000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "Tuna Sakhlah Fish", name_ar: "سمك برست سخله", price: 13000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
+        { name_en: "Grilled King fish Fish", name_ar: "سمك مشوي ديرك", price: 11000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "King fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 11000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.  ", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice. " },
+        { name_en: "King fish Broasted Fish", name_ar: "سمك برست ديرك", price: 11000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه.", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes." },
+        { name_en: "Tuna Broasted Fish", name_ar: "سمك برست ثمد", price: 6500, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
+        { name_en: "Grilled Tuna Fish", name_ar: "سمك مشوي ثمد", price: 6500, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "Tuna Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 6500, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
+        { name_en: "Sakhlah Fish Tafaaya", name_ar: "سمك طفاية سخله", price: 11000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
+		{ name_en: "Grilled Sakhlah Fish", name_ar: "سمك مشوي سخله", price: 11000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "Tuna Sakhlah Fish", name_ar: "سمك برست سخله", price: 11000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
         { name_en: "Mixed Grill Platter", name_ar: "مشاوي مشكلة", price: 16000, description_ar: "طاووق، شيش كباب، كفتة، تشكيلة من اسياخ شيش المقليه يقدم مع البطاطس.", description_en: "Assorted skewers of shish taouk, shish kebab, and kofta. Served with French fries." },
         { name_en: "Shish Taouk", name_ar: "شيش طاووق", price: 7500, description_ar: "قطع دجاج متبلة بصلصة الثوم، الليمون والخل. يقدم مع البطاطس المقلية.", description_en: "Chicken cubes marinated in garlic, lemon, and vinegar sauce. Served with French fries." },
         { name_en: "Chicken Kofta", name_ar: "كفتة دجاج", price: 8000, description_ar: "الدجاج المفروم المتبل مع البقدونس والبصل والبهارات العربية يقدم مع البطاطس المقلية.", description_en: "Minced chicken marinated with parsley, onion, and Arabic spices. Served with French fries." },
-        { name_en: "Meat Kofta", name_ar: "كفتة لحم", price: 13000,
+        { name_en: "Meat Kofta", name_ar: "كفتة لحم", price: 11000,
           description_ar: "اللحم المفروم المتبل مع البقدونس والبصل والبهارات العربية يقدم مع البطاطس المقلية.", description_en: "Minced meat marinated with parsley, onion, and Arabic spices. Served with French fries." },
-        { name_en: "Broasted Chicken", name_ar: "دجاج بروست", price: 5600,
+        { name_en: "Broasted Chicken", name_ar: "دجاج بروست", price: 4000,
           description_ar: "دجاج متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
-	       { name_en: "Crispy chicken", name_ar: "كرسبي دجاج", price: 5600,
+	       { name_en: "Crispy chicken", name_ar: "كرسبي دجاج", price: 4500,
           description_ar: "دجاج شرائح متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " chicken marinated and deep-fried with special spices. Served with French fries." },
-       { name_en: "Chicken fingers", name_ar: "أصابع دجاج", price: 5600,
+       { name_en: "Chicken fingers", name_ar: "أصابع دجاج", price: 4500,
           description_ar: "دجاج صدور أصابع متبلة ومقلية بنكهة البهارات الخاصة. ويقدم مع البطاطس المقلية.", description_en: " Chicken breast fingers marinated and deep-fried with special spices. Served with French fries." },
-        { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 9500, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." }
+        { name_en: "Grilled Chicken (Half)", name_ar: "دجاج مشوي (نصف دجاجة)", price: 7000, description_ar: "نصف دجاجة متبلة مع الثوم، صلصة الليمون، زيت الزيتون. يقدم مع الأرز أو البطاطس المقلية.", description_en: "Half boneless chicken marinated with garlic, lemon sauce, and olive oil. Served with rice or French fries." }
 	  ]
     },
     // 5. ركن الباستا (Pasta Corner)
@@ -196,7 +196,7 @@ const menuConfigData = {
         {
           name_en: "Spaghetti with Tuna",
           name_ar: "مكرونة بالتونة",
-          price: 6500,
+          price: 4500,
           description_ar: "باستا مع صلصة الطماطم، والتونة والبهارات.",
           description_en: "Pasta with tomato sauce, tuna, and spices."
         },
@@ -210,21 +210,21 @@ const menuConfigData = {
         {
           name_en: "Spaghetti with Chicken",
           name_ar: "مكرونة بالدجاج",
-          price: 7500,
+          price: 5500,
           description_ar: "باستا مع مكعبات الدجاج، صلصة طماطم وبهارات.",
           description_en: "Pasta with chicken cubes, tomato sauce, and spices."
         },
         {
           name_en: "Spaghetti with Fresh Vegetables & Herbs",
           name_ar: "مكرونة بالخضار",
-          price: 4500,
+          price: 3000,
           description_ar: "باستا مع الخضار الطازجة والأعشاب.",
           description_en: "Pasta with fresh vegetables and herbs."
         },
         {
           name_en: "Spaghetti with Shrimps",
           name_ar: "مكرونة بالجمبري",
-          price: 16000,
+          price: 13000,
           description_ar: "باستا مع الجمبري، صلصة طماطم، والبهارات اليمنية.",
           description_en: "Pasta with shrimps, tomato sauce, and Yemeni spices."
         }
@@ -239,7 +239,7 @@ const menuConfigData = {
         {
           name_en: "Oriental Breakfast",
           name_ar: "إفطار شرقي",
-          price: 10000,
+          price: 8000,
           description_ar: "تشكيلة من الجبن، زيتون، الفول المدمس أو الفاصوليا، الطماطم والخيار واختيارك من البيض حسب رغبتك (مسلوق أو مقلي) ويقدم الحليب أو شاي.",
           description_en: "A variety of cheese, olives, Bean mudammas or beans, tomatoes and cucumber, and your choice of eggs (boiled or fried). Served with milk or tea."
         }
@@ -253,34 +253,34 @@ const menuConfigData = {
       name_ar: "المطبخ اليمني (إفطار)",
       mainImage: "images/yemeni_cuisine_collage.jpg",
       items: [
-        { name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 8500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
-        { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 8000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
-        { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 6500,
+        { name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
+        { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 7000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
+        { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 4500,
           description_ar: "متبلة بنكهة خاصة من التوابل العدنية مطهية مع الخضار تقدم مع الأرز.", description_en: "Chicken cubes marinated with special Adeni spices, cooked with vegetables. Served with rice." },
-		{ name_en: "Chicken Curry", name_ar: "دجاج بالكاري", price: 6500, description_ar: "قطع دجاج متبله ومطهيه بالتوابل الهندية تقدم مع الأرز الأبيض.", description_en: "Chicken cubes marinated and cooked with special Indian spices. Served with white rice." },
+		{ name_en: "Chicken Curry", name_ar: "دجاج بالكاري", price: 4500, description_ar: "قطع دجاج متبله ومطهيه بالتوابل الهندية تقدم مع الأرز الأبيض.", description_en: "Chicken cubes marinated and cooked with special Indian spices. Served with white rice." },
         { name_en: "Raqat Meat (Thin Meat)", name_ar: "دقة لحم", price: 8000, description_ar: "شرائح لحم رقيقة مطهوة.", description_en: "Thin slices of lamb cooked Yemeni style." },
-        { name_en: "Normal Beans", name_ar: "فاصوليا عادي", price: 3500, description_ar: "فاصوليا مطبوخة سادة.", description_en: "Plain cooked beans." },
-        { name_en: "Beans Nashif", name_ar: "فاصوليا ناشف", price: 4000, description_ar: "فاصوليا مطبوخة بالطريقة الناشفة.", description_en: "Dry-style cooked beans." },
-        { name_en: "Beans with Eggs", name_ar: "فاصوليا بالبيض", price: 4000, description_ar: "فاصوليا مطبوخة مع البيض.", description_en: "Cooked beans with eggs." },
-        { name_en: "Beans with Cheese", name_ar: "فاصوليا بالجبن", price: 4000, description_ar: "فاصوليا مطبوخة مع الجبن.", description_en: "Cooked beans with cheese." },
-        { name_en: "Beans with Tuna", name_ar: "فاصوليا بالتونة", price: 5500, description_ar: "فاصوليا مطبوخة مع التونة.", description_en: "Cooked beans with tuna." },
-        { name_en: "Bean - Plain", name_ar: "فول عادي", price: 3500, description_ar: "فول سادة مطبوخ.", description_en: "Plain cooked fava beans." },
-        { name_en: "Bean with Tahini", name_ar: "فول بالطحينية", price: 4000, description_ar: "فول مطبوخ مع الطحينية.", description_en: "Cooked fava beans with tahini." },
-        { name_en: "Bean with Eggs", name_ar: "فول بالبيض", price: 4000, description_ar: "فول مطبوخ مع البيض.", description_en: "Cooked fava beans with eggs." },
-        { name_en: "Bean with Tuna", name_ar: "فول بالتونة", price: 5500, description_ar: "فول مطبوخ مع التونة.", description_en: "Cooked fava beans with tuna." },
-        { name_en: "Bean with Cheese", name_ar: "فول بالجبن", price: 4000, description_ar: "فول مطبوخ مع الجبن.", description_en: "Cooked fava beans with cheese." },
-        { name_en: "Bazlia (Peas) - Plain", name_ar: "بازليا سادة", price: 3500, description_ar: "بازلاء مطبوخة سادة.", description_en: "Plain cooked peas." },
-        { name_en: "Bazlia with Tuna", name_ar: "بازليا بالتونة", price: 5000, description_ar: "بازلاء مطبوخة مع التونة.", description_en: "Cooked peas with tuna." },
-        { name_en: "Bazlia with Eggs", name_ar: "بازليا بالبيض", price: 4000, description_ar: "بازلاء مطبوخة مع البيض.", description_en: "Cooked peas with eggs." },
-        { name_en: "Bazlia with Cheese", name_ar: "بازليا بالجبن", price: 4000, description_ar: "بازلاء مطبوخة مع الجبن.", description_en: "Cooked peas with cheese." },
-        { name_en: "Fried Eggs (Sunny Side Up)", name_ar: "بيض عيون", price: 4000, description_ar: "بيض مقلي عيون.", description_en: "Fried eggs, sunny side up." },
-        { name_en: "Shakshouka (Eggs)", name_ar: " بيض شكشوكة ", price: 4000, description_ar: "شكشوكة مطبوخة", description_en: "Cooked shakshouka." },
-		{ name_en: "Eggs with Cheese", name_ar: "بيض سادة", price: 3500, description_ar: "بيض مطبوخ.", description_en: "Eggs cooked." },
-        { name_en: "Eggs with Vegetables", name_ar: "بيض  بالخضار", price: 4000, description_ar: "بيض مطبوخة مع الخضار.", description_en: "Eggs cooked with vegetables." },
-        { name_en: "Eggs with Cheese", name_ar: "بيض بالجبنة", price: 4000, description_ar: "بيض مطبوخة مع الجبنة.", description_en: "Eggs cooked with cheese." },
-		{ name_en: "Eggs with Cheese", name_ar: "بيض بالمشروم", price: 4000, description_ar: "بيض مطبوخة مع المشروم.", description_en: "Eggs cooked with Mashrom." },
+        { name_en: "Normal Beans", name_ar: "فاصوليا عادي", price: 3000, description_ar: "فاصوليا مطبوخة سادة.", description_en: "Plain cooked beans." },
+        { name_en: "Beans Nashif", name_ar: "فاصوليا ناشف", price: 3000, description_ar: "فاصوليا مطبوخة بالطريقة الناشفة.", description_en: "Dry-style cooked beans." },
+        { name_en: "Beans with Eggs", name_ar: "فاصوليا بالبيض", price: 3500, description_ar: "فاصوليا مطبوخة مع البيض.", description_en: "Cooked beans with eggs." },
+        { name_en: "Beans with Cheese", name_ar: "فاصوليا بالجبن", price: 3500, description_ar: "فاصوليا مطبوخة مع الجبن.", description_en: "Cooked beans with cheese." },
+        { name_en: "Beans with Tuna", name_ar: "فاصوليا بالتونة", price: 4000, description_ar: "فاصوليا مطبوخة مع التونة.", description_en: "Cooked beans with tuna." },
+        { name_en: "Bean - Plain", name_ar: "فول عادي", price: 3000, description_ar: "فول سادة مطبوخ.", description_en: "Plain cooked fava beans." },
+        { name_en: "Bean with Tahini", name_ar: "فول بالطحينية", price: 3500, description_ar: "فول مطبوخ مع الطحينية.", description_en: "Cooked fava beans with tahini." },
+        { name_en: "Bean with Eggs", name_ar: "فول بالبيض", price: 3500, description_ar: "فول مطبوخ مع البيض.", description_en: "Cooked fava beans with eggs." },
+        { name_en: "Bean with Tuna", name_ar: "فول بالتونة", price: 4000, description_ar: "فول مطبوخ مع التونة.", description_en: "Cooked fava beans with tuna." },
+        { name_en: "Bean with Cheese", name_ar: "فول بالجبن", price: 3500, description_ar: "فول مطبوخ مع الجبن.", description_en: "Cooked fava beans with cheese." },
+        { name_en: "Bazlia (Peas) - Plain", name_ar: "بازليا سادة", price: 3000, description_ar: "بازلاء مطبوخة سادة.", description_en: "Plain cooked peas." },
+        { name_en: "Bazlia with Tuna", name_ar: "بازليا بالتونة", price: 4000, description_ar: "بازلاء مطبوخة مع التونة.", description_en: "Cooked peas with tuna." },
+        { name_en: "Bazlia with Eggs", name_ar: "بازليا بالبيض", price: 3500, description_ar: "بازلاء مطبوخة مع البيض.", description_en: "Cooked peas with eggs." },
+        { name_en: "Bazlia with Cheese", name_ar: "بازليا بالجبن", price: 3500, description_ar: "بازلاء مطبوخة مع الجبن.", description_en: "Cooked peas with cheese." },
+        { name_en: "Fried Eggs (Sunny Side Up)", name_ar: "بيض عيون", price: 3000, description_ar: "بيض مقلي عيون.", description_en: "Fried eggs, sunny side up." },
+        { name_en: "Shakshouka (Eggs)", name_ar: " بيض شكشوكة ", price: 3000, description_ar: "شكشوكة مطبوخة", description_en: "Cooked shakshouka." },
+		{ name_en: "Eggs with Cheese", name_ar: "بيض سادة", price: 3000, description_ar: "بيض مطبوخ.", description_en: "Eggs cooked." },
+        { name_en: "Eggs with Vegetables", name_ar: "بيض  بالخضار", price: 3500, description_ar: "بيض مطبوخة مع الخضار.", description_en: "Eggs cooked with vegetables." },
+        { name_en: "Eggs with Cheese", name_ar: "بيض بالجبنة", price: 3500, description_ar: "بيض مطبوخة مع الجبنة.", description_en: "Eggs cooked with cheese." },
+		{ name_en: "Eggs with Cheese", name_ar: "بيض بالمشروم", price: 3500, description_ar: "بيض مطبوخة مع المشروم.", description_en: "Eggs cooked with Mashrom." },
         {name_en: "Normal Tomato Sauce",name_ar: "سحاوق عادي",price: 1000,description_ar: "صلصة السحاوق اليمنية التقليدية الحارة.",description_en: "Traditional Yemeni hot sahawq sauce."},
-        {name_en: "Tomato Sauce with Cheese",name_ar: "سحاوق جبن",price: 3000,description_ar: "صلصة السحاوق اليمنية مع إضافة الجبن.",description_en: "Traditional Yemeni sahawq sauce with added cheese."}
+        {name_en: "Tomato Sauce with Cheese",name_ar: "سحاوق جبن",price: 2500,description_ar: "صلصة السحاوق اليمنية مع إضافة الجبن.",description_en: "Traditional Yemeni sahawq sauce with added cheese."}
           ]
     },
 	// قسم المطبخ اليمني (العام) - Yemeni Cuisine (General)
@@ -295,22 +295,22 @@ const menuConfigData = {
         { name_en: "Kabsa (Hot)", name_ar: "كبسة حار", price: 6000, description_ar: "كبسة حارة (اسأل عن التفاصيل).", description_en: "Hot Kabsa (ask for details)." },
         { name_en: "Rice with Vegetables", name_ar: "رز بالخضار", price: 3500, description_ar: "طبق أرز مطبوخ مع الخضار", description_en: "Vegetables dish served with rice." },
         {name_en: "Normal Tomato Sauce",name_ar: "سحاوق عادي",price: 1000,description_ar: "صلصة السحاوق اليمنية التقليدية الحارة.",description_en: "Traditional Yemeni hot sahawq sauce."},
-        {name_en: "Tomato Sauce with Cheese",name_ar: "سحاوق جبن",price: 3000,description_ar: "صلصة السحاوق اليمنية مع إضافة الجبن.",description_en: "Traditional Yemeni sahawq sauce with added cheese."},
-		{ name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 8500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
-        { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 8000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
-        { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 6500,
+        {name_en: "Tomato Sauce with Cheese",name_ar: "سحاوق جبن",price: 2500,description_ar: "صلصة السحاوق اليمنية مع إضافة الجبن.",description_en: "Traditional Yemeni sahawq sauce with added cheese."},
+		{ name_en: "Fresh Lamb Liver (Large Portion)", name_ar: "كبدة غنم بلدي (نفر)", price: 7500, description_ar: "كبدة غنم طازجة مطهيه مع البصل والطماطم والفلفل الأخضر والتوابل اليمنية تقدم مع الخبز.", description_en: "Fresh lamb liver cooked with onions, tomato, green chili, and Yemeni spices. Served with bread." },
+        { name_en: "Small Meat (Meat Saghar)", name_ar: "لحم صغار", price: 7000, description_ar: "قطع لحم صغيرة مطهوة على الطريقة اليمنية.", description_en: "Small pieces of lamb cooked Yemeni style." },
+        { name_en: "Chicken Akda", name_ar: "عقدة دجاج", price: 4500,
           description_ar: "متبلة بنكهة خاصة من التوابل العدنية مطهية مع الخضار تقدم مع الأرز.", description_en: "Chicken cubes marinated with special Adeni spices, cooked with vegetables. Served with rice." },
-		{ name_en: "Chicken Curry", name_ar: "دجاج بالكاري", price: 6500, description_ar: "قطع دجاج متبله ومطهيه بالتوابل الهندية تقدم مع الأرز الأبيض.", description_en: "Chicken cubes marinated and cooked with special Indian spices. Served with white rice." },
+		{ name_en: "Chicken Curry", name_ar: "دجاج بالكاري", price: 4500, description_ar: "قطع دجاج متبله ومطهيه بالتوابل الهندية تقدم مع الأرز الأبيض.", description_en: "Chicken cubes marinated and cooked with special Indian spices. Served with white rice." },
         { name_en: "Raqat Meat (Thin Meat)", name_ar: "دقة لحم", price: 8000, description_ar: "شرائح لحم رقيقة مطهوة.", description_en: "Thin slices of lamb cooked Yemeni style." },
-		{ name_en: "Grilled King fish Fish", name_ar: "سمك مشوي ديرك", price: 15000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "King fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 15000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.  ", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice. " },
-        { name_en: "King fish Broasted Fish", name_ar: "سمك برست ديرك", price: 15000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه.", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes." },
-        { name_en: "Tuna Broasted Fish", name_ar: "سمك برست ثمد", price: 9000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
-        { name_en: "Grilled Tuna Fish", name_ar: "سمك مشوي ثمد", price: 9000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "Tuna Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 9000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
-        { name_en: "Sakhlah Fish Tafaaya", name_ar: "سمك طفاية سخله", price: 13000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
-		{ name_en: "Grilled Sakhlah Fish", name_ar: "سمك مشوي سخله", price: 13000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
-        { name_en: "Tuna Sakhlah Fish", name_ar: "سمك برست سخله", price: 13000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " }
+		{ name_en: "Grilled King fish Fish", name_ar: "سمك مشوي ديرك", price: 11000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "King fish Tafaaya", name_ar: "سمك طفاية ديرك", price: 11000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.  ", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice. " },
+        { name_en: "King fish Broasted Fish", name_ar: "سمك برست ديرك", price: 11000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه.", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes." },
+        { name_en: "Tuna Broasted Fish", name_ar: "سمك برست ثمد", price: 6500, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " },
+        { name_en: "Grilled Tuna Fish", name_ar: "سمك مشوي ثمد", price: 6500, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "Tuna Fish Tafaaya", name_ar: "سمك طفاية ثمد", price: 6500, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
+        { name_en: "Sakhlah Fish Tafaaya", name_ar: "سمك طفاية سخله", price: 11000, description_ar: "شرائح السمك مقلاة مع البصل المحمر، البسباس الحار،الطماط والكزبرة يقدم مع الأرز الشرقي.", description_en: "Fish slices sautéed with fried onions, hot pepper, tomatoes and coriander, served with oriental rice." },
+		{ name_en: "Grilled Sakhlah Fish", name_ar: "سمك مشوي سخله", price: 11000, description_ar: "سمك متبل مع الثوم،صلصة الليمون، زيت الزيتون، الخردل والكزبرة الطازجة يقدم مع الأرز أو الشيبس. ", description_en: "Marinated fish with garlic, lemon sauce, olive oil, mustard and fresh coriander served with rice or chips. " },
+        { name_en: "Tuna Sakhlah Fish", name_ar: "سمك برست سخله", price: 11000, description_ar: "شرائح سمك  مقلي بنكهة البهارات الخاصه  ويقدم مع البطاط الطازجه. ", description_en: "Fried fish slices flavored with special spices, served with fresh potatoes. " }
 
        
         // هذا القسم فارغ حاليًا. يمكنك إضافة أطباق يمنية عامة هنا لا تندرج تحت "إفطار وعشاء".
@@ -326,14 +326,14 @@ const menuConfigData = {
         {
           name_en: "Chicken Burger",
             name_ar: "برجر دجاج سنجل", // Changed to specify Chicken Burger
-            price: 3800,
+            price: 3300,
             description_ar: "برجر دجاج صافي مع صلصة المايونيز والمخللات والبصل السوتيه يقدم بخبز السمسم والبطاطس المقلية.",
             description_en: "Pure chicken burger with mayonnaise sauce, pickles, and sautéed onions served with sesame bun and French fries."
         },
         {
           name_en: "Double Chicken Burger",
           name_ar: "برجر دجاج دبل",
-          price: 6500,
+          price: 6000,
           description_ar: "برجر دجاج دبل مع صلصة المايونيز والمخللات والبصل السوتيه يقدم بخبز السمسم والبطاطس المقلية.",
           description_en: "Double chicken burger with mayonnaise sauce, pickles, and sautéed onions served with sesame bun and French fries."
         },
@@ -361,7 +361,7 @@ const menuConfigData = {
       mainImage: "images/desserts_collage.jpg",
       items: [
         { name_en: "Fresh Fruit Salad", name_ar: "طبق الفواكه الطازجة", price: 9000, description_ar: "تشكيلة من الفواكه الموسمية الطازجة.", description_en: "Assortment of fresh seasonal fruits." },
-        { name_en: "Fresh Fruit Platter", name_ar: "سلطة الفواكه الطازجة", price: 6000, description_ar: "قطع فواكه طازجة منوعة.", description_en: "Mixed fresh fruit pieces." }
+        { name_en: "Fresh Fruit Platter", name_ar: "سلطة الفواكه الطازجة", price: 5000, description_ar: "قطع فواكه طازجة منوعة.", description_en: "Mixed fresh fruit pieces." }
 		]
     },
     // 8. العصائر الباردة (Cold Beverages)
@@ -371,14 +371,14 @@ const menuConfigData = {
       name_ar: "المشروبات الباردة",
       mainImage: "images/cold_beverages_collage.jpg",
       items: [
-        { name_en: "Fresh Orange Juice", name_ar: "عصير برتقال طازج", price: 2500, description_ar: "عصير برتقال طازج ومعصور يومياً.", description_en: "Freshly squeezed orange juice." },
-	    { name_en: "Fresh Strawberry Juice", name_ar: "عصير فراولة طازج", price: 2500, description_ar: "عصير فراولة طازج ومعصور يومياً.", description_en: "Freshly squeezed strawberry juice." },
+        { name_en: "Fresh Orange Juice", name_ar: "عصير برتقال طازج", price: 2200, description_ar: "عصير برتقال طازج ومعصور يومياً.", description_en: "Freshly squeezed orange juice." },
+	    { name_en: "Fresh Strawberry Juice", name_ar: "عصير فراولة طازج", price: 2200, description_ar: "عصير فراولة طازج ومعصور يومياً.", description_en: "Freshly squeezed strawberry juice." },
         { name_en: "Fresh Lemon Juice", name_ar: "عصير ليمون طازج", price: 700, description_ar: "عصير ليمون منعش وطازج.", description_en: "Refreshing freshly squeezed lemon juice." },
-        { name_en: "Mango Juice", name_ar: "عصير المانجو", price: 2500, description_ar: "عصير مانجو طبيعي.", description_en: "Natural mango juice." },
-        { name_en: "Milk with Banana Juice", name_ar: "عصير الحليب بالموز", price: 1800, description_ar: "مزيج الحليب الطازج مع الموز.", description_en: "Fresh milk blended with banana." },
-        { name_en: "Ginger Juice", name_ar: "عصير الزنجبيل", price: 1800, description_ar: "عصير زنجبيل طازج ومنعش.", description_en: "Fresh and refreshing ginger juice." },
-        { name_en: "Mineral Water", name_ar: "ماء معدني", price: 800, description_ar: "مياه معدنية نقية.", description_en: "Pure mineral water." },
-        { name_en: "Soft Drinks", name_ar: "مشروبات غازية", price: 1200, description_ar: "مجموعة متنوعة من المشروبات الغازية.", description_en: "Variety of carbonated soft drinks." }
+        { name_en: "Mango Juice", name_ar: "عصير المانجو", price: 2200, description_ar: "عصير مانجو طبيعي.", description_en: "Natural mango juice." },
+        { name_en: "Milk with Banana Juice", name_ar: "عصير الحليب بالموز", price: 1600, description_ar: "مزيج الحليب الطازج مع الموز.", description_en: "Fresh milk blended with banana." },
+        { name_en: "Ginger Juice", name_ar: "عصير الزنجبيل", price: 1500, description_ar: "عصير زنجبيل طازج ومنعش.", description_en: "Fresh and refreshing ginger juice." },
+        { name_en: "Mineral Water", name_ar: "ماء معدني", price: 600, description_ar: "مياه معدنية نقية.", description_en: "Pure mineral water." },
+        { name_en: "Soft Drinks", name_ar: "مشروبات غازية", price: 900, description_ar: "مجموعة متنوعة من المشروبات الغازية.", description_en: "Variety of carbonated soft drinks." }
       ]
     },
     // 9. المشروبات الساخنة (Hot Beverages)
@@ -389,10 +389,10 @@ const menuConfigData = {
       mainImage: "images/hot_beverages_collage.jpg",
       items: [
         { name_en: "Turkish Coffee", name_ar: "قهوة تركية", price: 2800, description_ar: "قهوة تركية محضرة بالطريقة التقليدية.", description_en: "Traditional Turkish coffee." },
-        { name_en: "Nescafe", name_ar: "نسكافيه", price: 2500, description_ar: "قهوة نسكافيه سريعة التحضير.", description_en: "Instant Nescafe coffee." },
-        { name_en: "Milk (Hot/Cold)", name_ar: "حليب بارد / ساخن", price: 1500, description_ar: "حليب طازج بارد أو ساخن.", description_en: "Fresh milk, hot or cold." },
+        { name_en: "Nescafe", name_ar: "نسكافيه", price: 2000, description_ar: "قهوة نسكافيه سريعة التحضير.", description_en: "Instant Nescafe coffee." },
+        { name_en: "Milk (Hot/Cold)", name_ar: "حليب بارد / ساخن", price: 2000, description_ar: "حليب طازج بارد أو ساخن.", description_en: "Fresh milk, hot or cold." },
         { name_en: "Tea", name_ar: "شاي", price: 400, description_ar: "شاي أحمر أو أخضر كلاسيكي.", description_en: "Classic red or green tea." },
-        { name_en: "Adani Tea", name_ar: "شاي عدني", price: 600, description_ar: "شاي عدني مبهر بالحليب والهيل والبهارات.", description_en: "Spiced Adani tea with milk, cardamom, and other spices." }
+        { name_en: "Adani Tea", name_ar: "شاي عدني", price: 500, description_ar: "شاي عدني مبهر بالحليب والهيل والبهارات.", description_en: "Spiced Adani tea with milk, cardamom, and other spices." }
       ]
     },
     
@@ -410,3 +410,4 @@ const menuConfigData = {
     }, */
   ]
 };
+
