@@ -321,11 +321,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 itemDiv.classList.add('menu-item', 'text-only-item');
                 itemDiv.style.animationDelay = `${index * 0.05}s`;
 
-                const descAr = item.description_ar || "";
-                const descEn = item.description_en || "";
-                const priceVal = (typeof item.price === 'string' && item.price.toUpperCase() === "X") || typeof item.price === 'undefined' || item.price === null ?
-                    null : Number(item.price);
-                const priceString = priceVal !== null ?
+              //  const descAr = item.description_ar || "";
+             //   const descEn = item.description_en || "";
+             //   const priceVal = (typeof item.price === 'string' && item.price.toUpperCase() === "X") || typeof item.price === 'undefined' || item.price === null ?
+             //       null : Number(item.price);
+             //   const priceString = priceVal !== null ?
                     `<span class="price-val">${priceVal.toLocaleString()}</span> <span class="price-currency-ar arabic-text">${menuConfigData.currency_ar || ''}</span>` :
                     `<span class="price-tba-ar arabic-text">حسب الطلب</span><span class="price-tba-en english-text">Ask Staff</span>`;
 
