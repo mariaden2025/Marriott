@@ -343,8 +343,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             : '<div class="item-description-placeholder"></div>'
                         }
                         <div class="item-price-section">
-                            <span class="item-price">${priceString}</span>
-                        </div>
+                          //  <span class="item-price">${priceString}</span>
+                      //  </div>
                     </div>
                 `;
                 menuItemsContainer.appendChild(itemDiv);
