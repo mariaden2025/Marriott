@@ -18,8 +18,8 @@ const menuConfigData = {
     // "images/hero/dish_highlight_2.jpg"
   ],
 
-  currency_en: "",
-  currency_ar: "",
+  currency_en: "YER",
+  currency_ar: "ريال",
   roomServiceNote_en: "All rights reserved Marriott Hotel 2025",
   roomServiceNote_ar: "جميع الحقوق محفوظة فندق ماريوت 2025",
   categories: [
